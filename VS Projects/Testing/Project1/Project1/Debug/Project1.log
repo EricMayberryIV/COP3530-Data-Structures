@@ -1,0 +1,11 @@
+﻿Build started 9/12/2013 8:09:07 PM.
+     1>Project "C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Testing\Project1\Project1\Project1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt time_Source.cpp
+         time_Source.cpp
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\testing\project1\project1\time_source.cpp(8): error C4700: uninitialized local variable 'ltime' used
+     1>Done Building Project "C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Testing\Project1\Project1\Project1.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.01

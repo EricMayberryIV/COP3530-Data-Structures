@@ -1,0 +1,24 @@
+﻿Build started 10/9/2013 9:30:43 PM.
+     1>Project "C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\ServerGroup\ServerGroup\ServerGroup.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ServerGroup.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ServerGroup.cpp source.cpp
+         ServerGroup.cpp
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\servergroup.cpp(9): error C2100: illegal indirection
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\servergroup.cpp(9): error C2106: '=' : left operand must be l-value
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\servergroup.cpp(25): error C2100: illegal indirection
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\servergroup.cpp(27): error C2100: illegal indirection
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\servergroup.cpp(51): error C2100: illegal indirection
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\servergroup.cpp(53): error C2100: illegal indirection
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\servergroup.cpp(53): error C2106: '-=' : left operand must be l-value
+         Generating Code...
+         Compiling...
+         source.cpp
+         Generating Code...
+     1>c:\users\eric\documents\owncloud\school\!famu\2013\fall\cop3530\vs projects\servergroup\servergroup\source.cpp(8): warning C4700: uninitialized local variable 'numElements' used
+     1>Done Building Project "C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\ServerGroup\ServerGroup\ServerGroup.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56

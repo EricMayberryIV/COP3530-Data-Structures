@@ -1,0 +1,21 @@
+﻿Build started 9/21/2013 3:30:11 PM.
+     1>Project "C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Assignment 3\Assignment 3\Assignment 3.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Assignment 3.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'C:\USERS\ERIC\DOCUMENTS\OWNCLOUD\SCHOOL\!FAMU\2013\FALL\COP3530\VS PROJECTS\ASSIGNMENT 3\DEBUG\ASSIGNMENT 3.EXE' is denied.
+       InitializeBuildStatus:
+         Creating "Debug\Assignment 3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source.cpp
+         source.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Assignment 3.exe.embed.manifest.res" "Debug\Assignment 3_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Assignment 3\Debug\Assignment 3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment 3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Assignment 3\Debug\Assignment 3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Assignment 3\Debug\Assignment 3.lib" /MACHINE:X86 "Debug\Assignment 3.exe.embed.manifest.res"
+         Debug\source.obj
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Assignment 3\Debug\Assignment 3.exe'
+     1>Done Building Project "C:\Users\Eric\Documents\ownCloud\School\!FAMU\2013\Fall\COP3530\VS Projects\Assignment 3\Assignment 3\Assignment 3.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.89

@@ -1,0 +1,31 @@
+﻿Build started 11/26/2013 7:06:22 PM.
+     1>Project "C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\drink_machine\drink_machine.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\drink_machine.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\drink_machine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Marlow_Mayberry_Source.cpp
+         Marlow_Mayberry_Source.cpp
+     1>c:\users\eric\documents\skydrive\documents\school\!famu\2013\fall\cop3530\vs projects\drink_machine\drink_machine\marlow_mayberry_link.h(27): warning C4101: 'ptr' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\drink_machine.exe.embed.manifest.res" Debug\drink_machine_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\Debug\drink_machine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\drink_machine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\Debug\drink_machine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\Debug\drink_machine.lib" /MACHINE:X86 Debug\drink_machine.exe.embed.manifest.res
+         Debug\Marlow_Mayberry_Source.obj
+       Manifest:
+         Deleting file "Debug\drink_machine.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\drink_machine.exe.embed.manifest" /manifest Debug\drink_machine.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\drink_machine.exe.embed.manifest.res" Debug\drink_machine_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\Debug\drink_machine.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\drink_machine.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\Debug\drink_machine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\Debug\drink_machine.lib" /MACHINE:X86 Debug\drink_machine.exe.embed.manifest.res
+         Debug\Marlow_Mayberry_Source.obj
+         drink_machine.vcxproj -> C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\Debug\drink_machine.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\drink_machine.unsuccessfulbuild".
+         Touching "Debug\drink_machine.lastbuildstate".
+     1>Done Building Project "C:\Users\Eric\Documents\SkyDrive\Documents\School\!FAMU\2013\Fall\COP3530\VS Projects\drink_machine\drink_machine\drink_machine.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
